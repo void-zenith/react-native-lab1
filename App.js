@@ -6,9 +6,11 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.header}>Hi!👋</Text>
       <Text style={styles.subheader}>
-        I am <Text style={styles.highlightedText}>zenith rajbhandari. </Text>
+        Name: <Text style={styles.highlightedText}>zenith rajbhandari</Text>
       </Text>
-      <Text>This is my first app.</Text>
+      <Text style={styles.subheader}>
+        Student ID: <Text style={styles.highlightedText}>301373152</Text>
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -32,10 +34,10 @@ const styles = StyleSheet.create({
   },
   subheader: {
     textAlign: "center",
-    fontSize: 30,
+    fontSize: 22,
   },
   highlightedText: {
-    fontSize: 36,
+    fontSize: 28,
     textTransform: "uppercase",
     fontWeight: "700",
     textDecorationLine: "underline",
